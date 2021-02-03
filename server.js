@@ -4,7 +4,6 @@ const app = express();
 const server = require("http").Server(app);
 const io = require("socket.io")(server);
 const { v4: uuidv4 } = require('uuid');
-//const { v4: uuid } = require("uuid");
 
 const port = 3000;
 
@@ -20,16 +19,54 @@ app.get('/room', (req, res) => {
 });
 
 app.get("/room/:id", (req, res) => {
-    res.render("room.ejs", {roomId: req.params.id, userId: uuidv4()});
+    let theroomid = req.params.id
+    res.render("room.ejs", {roomId: theroomid, userId: uuidv4()});
+
 });
+
+userIdlist = [];
 
 io.on("connection", socket => {
     socket.on("join-room", (userId, roomId) => {
+
+        console.log(`User ${userId} Joined room ${roomId}`)
+
+        if(userIdlist.length === 1)
+        {
+            let admin = userIdlist[0];
+            console.log("admin: ", admin);
+        }
+
+        userIdlist.push(userId);
         socket.join(roomId);
         socket.to(roomId).broadcast.emit("new-member", userId);
+        theroomid = roomId;
     })
-    console.log("User Joined")
-})
 
+
+    // Recieving updates from user 
+    socket.on('update_canvas',function(data){
+        console.log("receiving update")
+    
+    
+    //  store all drawings indev*
+    const history = [];
+
+    history.push(data);
+
+    console.log("theroomid", theroomid);
+    for(let item of history)
+
+        // socket.emit('update_canvas',item); 
+        
+        socket.to(theroomid).emit('update_canvas',item);
+      
+      // send updates to all sockets except sender
+      socket.to(theroomid).emit('update_canvas',data);
+    //   socket.emit('update_canvas',data);
+    
+});
+
+})
 
 server.listen(port);
