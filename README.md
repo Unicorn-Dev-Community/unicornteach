@@ -9,7 +9,7 @@
 
 <br><hr>
 
-<video src="Tutorial/2021-02-02%2023-24-48.mkv" autostart="false" height="30" width="144" />
+<a href="Tutorial/2021-02-02%2023-24-48.mkv" title="Tutorial">Find what this do !</a>
 
 <h3>Contributors</h3>
 <div align="center">
