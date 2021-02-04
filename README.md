@@ -3,11 +3,14 @@
 <hr>
 
 <img src="https://media.giphy.com/media/PqFxlD2TGJWlPpOs8G/giphy.gif" width="540" height="100">
-![SC2 Video](https://www.youtube.com/watch?v=--b-9HrKK6w)
+
 <br><hr>
 <h3>Contributors</h3>
 <div align="center">
-
+<video width="320" height="240" controls>
+      <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+      <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
+</video>
 
 <i>Follow US around the web:</i><br>
 
