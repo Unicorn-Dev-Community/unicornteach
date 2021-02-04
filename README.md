@@ -9,10 +9,8 @@
 <br><hr>
 <h3>Contributors</h3>
 <div align="center">
-<video width="320" height="240" controls>
-      <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
-      <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
-</video>
+<iframe width="500" height="320" src="https://www.youtube.com/embed/lcZDWo6hiuI">
+    </iframe>
 
 <i>Follow US around the web:</i><br>
 
