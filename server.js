@@ -8,7 +8,7 @@ const { v4: uuidv4 } = require('uuid');
 const port = process.env.PORT || 3000;
 
 app.set("view-engine", "ejs");
-app.use("/room/:id", express.static("public"));
+app.use("/room/:id", express.static('public'));
 
 app.get("/", (req, res) => {
     res.render("index.ejs");
