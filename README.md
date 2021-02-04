@@ -3,7 +3,7 @@
 <hr>
 
 <img src="https://media.giphy.com/media/PqFxlD2TGJWlPpOs8G/giphy.gif" width="540" height="100">
-![Tutorial](Tutorial/2021-02-02 23-24-48.mkv)[https://github.com/Deosaju/unicornteachV2/blob/main/Tutorial/2021-02-02%2023-24-48.mkv]
+[![SC2 Video](doc/SC2_youtube.gif)](https://www.youtube.com/watch?v=--b-9HrKK6w)
 <br><hr>
 <h3>Contributors</h3>
 <div align="center">
