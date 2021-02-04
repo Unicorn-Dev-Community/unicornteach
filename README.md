@@ -10,7 +10,7 @@
 <br><hr>
 <div align="center">
   <h3>Tutorial</h3>
-<a href="https://drive.google.com/file/d/1IVxLfySDr3_qW8kjvJtwxlhP3hMBocwF/view?usp=sharing" title="Tutorial">Find what this do !</a>
+<a href="https://drive.google.com/file/d/1IVxLfySDr3_qW8kjvJtwxlhP3hMBocwF/view?usp=sharing" title="Tutorial">This is how we do it!</a>
   <h2>Get a trial view</h2>
   <a href="https://unicornteach.herokuapp.com/" title="Website">Login here !</a>
  
