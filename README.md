@@ -3,7 +3,7 @@
 <hr>
 
 <img src="https://media.giphy.com/media/PqFxlD2TGJWlPpOs8G/giphy.gif" width="540" height="100">
-![SC2 Video](doc/SC2_youtube.gif)(https://www.youtube.com/watch?v=--b-9HrKK6w)
+![SC2 Video](https://www.youtube.com/watch?v=--b-9HrKK6w)
 <br><hr>
 <h3>Contributors</h3>
 <div align="center">
