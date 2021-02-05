@@ -59,13 +59,14 @@ window.addEventListener('load', () => {
 
     function drawLine(context, x1, y1, x2, y2,from_server = false) {
 
+        console.log(`x: ${x} y: ${y} x2: ${x2} y2: ${y2}`)
         // Send updates to server (not re-emiting those received from server)
         if(!from_server)
             socket.emit('update_canvas',JSON.stringify({x1,y1,x2,y2}));
         
         // Draw line 
         context.beginPath();
-        context.strokeStyle = 'black';
+        context.strokeStyle = 'white';
         context.lineWidth = 5;
         context.lineCap = 'round'
         context.moveTo(x1, y1);

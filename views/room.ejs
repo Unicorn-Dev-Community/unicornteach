@@ -20,11 +20,7 @@
   <title>UnicornTeach Chat Room</title>
   <style>
     
-    video {
-      width: 20%;
-      height: 20%;
-      display: block;
-    }
+    
   </style>
 </head>
 <body>
@@ -48,7 +44,8 @@
 
     <h2 class="hero-text">Start your sessions!</h2>
     <canvas id="canvas"></canvas>
-  <div id="video-grid"></div>
+
+    <div id="video-grid"></div>
     <script>
         const ROOMID = "<%=roomId%>";
         const USERID = "<%=userId%>";
@@ -215,9 +212,36 @@
   text-align: center;
   padding-top: 20px;
   font-size: 24px;
+  color: #ffffff;
 }
 
 
+    #video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 250px);
+      grid-auto-rows: 250px;
+      margin: 10px 20px 10px 20px;
+    }
+    
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      padding: 10px;
+      margin: 10px 20px 10px 20px;
+      border-radius: 50px;
+    -webkit-box-shadow: 24px 14px 30px 0px rgba(155, 155, 155, 0.07);
+    -moz-box-shadow:    24px 14px 30px 0px rgba(148, 148, 148, 0.07);
+     box-shadow:         24px 14px 30px 0px rgba(180, 179, 179, 0.07)
+    }
+
+  .video:hover {
+    border: 0.5px solid #000;
+  }
+
+  body {
+    background-color: #000;
+  }
   </style>
 </body>
 </html>

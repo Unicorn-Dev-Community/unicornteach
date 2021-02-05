@@ -63,7 +63,6 @@ io.on("connection", socket => {
 
     // Recieving updates from user 
     socket.on('update_canvas',function(data){
-        console.log("receiving update")
     
     
     //  store all drawings indev*
@@ -71,7 +70,7 @@ io.on("connection", socket => {
 
     history.push(data);
 
-    console.log("theroomid", theroomid);
+    console.log("roodID: ", theroomid);
     for(let item of history)
 
         // socket.emit('update_canvas',item); 
