@@ -58,6 +58,7 @@ io.on("connection", socket => {
         socket.join(roomId);
         socket.to(roomId).broadcast.emit("new-member", userId);
         theroomid = roomId;
+        console.log("roodID: ", theroomid);
     })
 
 
@@ -70,7 +71,7 @@ io.on("connection", socket => {
 
     history.push(data);
 
-    console.log("roodID: ", theroomid);
+   
     for(let item of history)
 
         // socket.emit('update_canvas',item); 
