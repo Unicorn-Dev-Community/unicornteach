@@ -1,5 +1,3 @@
-//const { Socket } = require("socket.io");
-
 const socket = io();
 socket.emit("join-room", USERID, ROOMID);
 
