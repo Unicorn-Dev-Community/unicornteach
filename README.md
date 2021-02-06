@@ -2,6 +2,8 @@
 <img src="https://raw.githubusercontent.com/sidharthpunathil/unicornteachV2/main/public/images/logo.svg">
 </div>
 
+![simple video demo](https://github.com/TheAmalShibu/unicornteachV2/blob/main/Assets/simplevideodemo.gif)
+
 ### Installation
 
 The easiest way to get started with unicornteach
