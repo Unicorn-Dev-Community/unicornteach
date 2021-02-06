@@ -1,4 +1,7 @@
-# Unicornteach v2 
+<div align="center">
+<img src="https://raw.githubusercontent.com/sidharthpunathil/unicornteachV2/main/public/images/logo.svg">
+</div>
+
 ### Installation
 
 The easiest way to get started with unicornteach
