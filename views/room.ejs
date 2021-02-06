@@ -20,11 +20,7 @@
   <title>UnicornTeach Chat Room</title>
   <style>
     
-    video {
-      width: 0%;
-      height: 0%;
-      display: block;
-    }
+    
   </style>
 </head>
 <body>
@@ -40,19 +36,33 @@
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         </ul>
     </div>
-        <form class="form-inline my-2 my-lg-0">
-            <button class="btn my-2 my-sm-0 mr-2 custom-button customb1" type="submit">Welcome, X</button>
+        <div class="form-inline my-2 my-lg-0">
+            <button class="create-room customb2 get-s" onclick=erasertoggleon()>Eraser</button>
+            <button class="create-room customb1 get-s" onclick=erasertoggleoff()>Pen</button>
             <!-- <button class="btn my-2 my-sm-0 mr-2 custom-button customb2" type="submit">Sign up</button> -->
-        </form>
+        </div>
     </nav>
-
-
+    
+    <div class="form-inline my-2 my-lg-0">
+    </div>
+    <br>
+    <h2 class="hero-text">Start your sessions!</h2>
     <canvas id="canvas"></canvas>
-  <div id="video-grid"></div>
+
+    <div id="video-grid"></div>
     <script>
         const ROOMID = "<%=roomId%>";
         const USERID = "<%=userId%>";
+        var eraser;
+        function erasertoggleon()
+        {
+          eraser = true;
+        }
 
+        function erasertoggleoff()
+        {
+          eraser = false;
+        }
     </script>
 
 
@@ -112,15 +122,16 @@
     border: var(--violet);
     color: #0e0e0e;
     border: #0e0e0e;
-    border: 0.1px solid black;
+    border: 0.1px solid #5E17EB;
     border-radius: 0%;
 }
 
 .customb2 {
     background-color: var(--violet);
     border: var(--white);
-    color: #ffffff;
+    border: 0.1px solid #5E17EB;
     border-radius: 0%;
+    color: #fff;
 }
 
 .customb2:hover {
@@ -145,7 +156,7 @@
     height: 100vh;
     align-content: center;
     margin-top: 10%;
-    border-bottom: 0.5px solid #000;;
+    border-bottom: 0.5px solid #000;
 
 }
 
@@ -206,8 +217,45 @@
     transition: 0.2s;
 }
 
+.canvas {
+    border: 0.5px solid #000;
+    padding: 10px;
+}
+
+.hero-text {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 24px;
+  color: #ffffff;
+}
 
 
+    #video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 250px);
+      grid-auto-rows: 250px;
+      margin: 10px 20px 10px 20px;
+    }
+    
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      padding: 10px;
+      margin: 10px 20px 10px 20px;
+      border-radius: 50px;
+    -webkit-box-shadow: 24px 14px 30px 0px rgba(155, 155, 155, 0.07);
+    -moz-box-shadow:    24px 14px 30px 0px rgba(148, 148, 148, 0.07);
+     box-shadow:         24px 14px 30px 0px rgba(180, 179, 179, 0.07)
+    }
+
+  .video:hover {
+    border: 0.5px solid #000;
+  }
+
+  body {
+    background-color: #000;
+  }
   </style>
 </body>
 </html>

@@ -1,4 +1,3 @@
-//const { Socket } = require("socket.io");
 
 const socket = io();
 socket.emit("join-room", USERID, ROOMID);
@@ -43,6 +42,7 @@ window.addEventListener('load', () => {
         // Drawing ends 
         if (drawing === true) {
             drawLine(ctx, x, y, e.offsetX, e.offsetY);
+            console.log(`x: ${x} y: ${y}`)
             x = 0;
             y = 0;
             drawing = false;
@@ -58,22 +58,35 @@ window.addEventListener('load', () => {
 
     });
 
-
     function drawLine(context, x1, y1, x2, y2,from_server = false) {
-
-        // Send updates to server (not re-emiting those received from server)
+        console.log(`x: ${x} y: ${y}`)
         if(!from_server)
             socket.emit('update_canvas',JSON.stringify({x1,y1,x2,y2}));
         
         // Draw line 
-        context.beginPath();
-        context.strokeStyle = 'black';
-        context.lineWidth = 5;
-        context.lineCap = 'round'
-        context.moveTo(x1, y1);
-        context.lineTo(x2, y2);
-        context.stroke();
-        context.closePath();
+
+            if(eraser==true)
+            {
+            context.beginPath();
+            context.strokeStyle = "black";
+            context.lineWidth = 100;
+            context.lineCap = 'round'
+            context.moveTo(x1, y1);
+            context.lineTo(x2, y2);
+            context.stroke();
+            context.closePath();
+            }
+            else 
+            {
+            context.beginPath();
+            context.strokeStyle = "white";
+            context.lineWidth = 5;
+            context.lineCap = 'round'
+            context.moveTo(x1, y1);
+            context.lineTo(x2, y2);
+            context.stroke();
+            context.closePath();
+            }
         }
 
 })

@@ -24,7 +24,24 @@ app.get("/room/:id", (req, res) => {
 
 });
 
+// app.get('/:room', (req, res) => {
+//   res.render('room', { roomId: req.params.room })
+// })
+
+
 userIdlist = [];
+
+io.on('connection', socket => {
+  socket.on('join-room', (roomId, userId) => {
+    socket.join(roomId)
+    socket.to(roomId).broadcast.emit('user-connected', userId)
+
+    socket.on('disconnect', () => {
+      socket.to(roomId).broadcast.emit('user-disconnected', userId)
+    })
+  })
+})
+
 
 io.on("connection", socket => {
     socket.on("join-room", (userId, roomId) => {
@@ -41,12 +58,12 @@ io.on("connection", socket => {
         socket.join(roomId);
         socket.to(roomId).broadcast.emit("new-member", userId);
         theroomid = roomId;
+        console.log("roodID: ", theroomid);
     })
 
 
     // Recieving updates from user 
     socket.on('update_canvas',function(data){
-        console.log("receiving update")
     
     
     //  store all drawings indev*
@@ -54,7 +71,7 @@ io.on("connection", socket => {
 
     history.push(data);
 
-    console.log("theroomid", theroomid);
+   
     for(let item of history)
 
         // socket.emit('update_canvas',item); 
