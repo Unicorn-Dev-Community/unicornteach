@@ -1,15 +1,19 @@
+# Unicornteach v2 
+### Installation
 
-<div align="center">
+The easiest way to get started with unicornteach
 
-# Unicornteach v2 <br>
-Powered by ```Unicorndev``` 
+```bash
+$ npm i package.json
+$ node server.js
+```
 
-<img src="https://media.giphy.com/media/PqFxlD2TGJWlPpOs8G/giphy.gif" width="540" height="100">
+You can access the app by visiting
 
-<br>
-
-<hr>
-
+```bash
+localhost:3000
+```
+### About Us
 
 <a href="https://docs.google.com/presentation/d/1X_5cFYmizqu-8cp4DHltDiI17BK6T65KlEPaCuGE_Vc/edit?usp=sharingg" title="Tutorial">Concept</a>
   
@@ -20,6 +24,7 @@ Powered by ```Unicorndev```
 
 <i>Follow US around the web:</i><br>
 
+<div align="center">
   <a href="https://github.com/sidharthpunathil" >Sidharth Punathi</a>
   &nbsp;
   <a href="https://github.com/sid2020-devil" >Sidharth Unnithan</a>
