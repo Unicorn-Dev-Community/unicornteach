@@ -7,6 +7,10 @@
 
 </div>
 
+<li><a href="#Why Unicornteach ?">Why Unicornteach ?</a></li>
+<li><a href="#Installation">Installation</a></li>
+<li><a href="#About us">Ask the developers</a></li>
+
 ### Installation
 
 The easiest way to get started with unicornteach
@@ -21,7 +25,7 @@ You can access the app by visiting
 ```bash
 localhost:3000
 ```
-### About Us
+### About us
 
 <a href="https://docs.google.com/presentation/d/1X_5cFYmizqu-8cp4DHltDiI17BK6T65KlEPaCuGE_Vc/edit?usp=sharingg" title="Tutorial">Concept</a>
   
