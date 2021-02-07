@@ -9,7 +9,7 @@
 
 <li><a href="#Why Unicornteach ?">Why Unicornteach ?</a></li>
 <li><a href="#Installation">Installation</a></li>
-<li><a href="#About us">Ask the developers</a></li>
+<li><a href="#About-us">Ask the developers</a></li>
 
 ### Installation
 
