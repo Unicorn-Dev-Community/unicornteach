@@ -34,50 +34,44 @@
     </nav>
 
     
-    <div class="container py-5 hero-container">
+    <div class="container hero-container" style="height: 100vh; margin-top: 50px;">
         <div class="hero d-flex align-items-center">
         <div class="row d-flex align-items-center no-gutters">
-            <div class="col-lg-6 " >
-            <h1 class="hero-text">Work till you get there!</h1>
-            <p class="p-tag">Education is the most powerful weapon which you can use to change the world. - Nelson Mandela</p>
+            <div class="col-lg-6" >
+            <h1 class="hero-text" style="font-weight: bold; letter-spacing: -1.5px;">Making education accessible for everyone!</h1>
+            <p class="p-tag">We believe education is for everyone, wherever you are, and whatever your internet speed is. Create your own room to get started.</p>
+
+            <p>Still in alpha, but gonna get better in the coming days.</p>
                 <button class="create-room customb1 get-s" onclick="createRoom()">Create Room!</button>
             </div>
             <div class="col-lg-6 align-self-center ml-auto mx-auto">
             <!-- <img src="./assets/images/smile.svg" alt="Placeholder-Image" style="background-position: center;display: block; margin: auto; overflow: hidden;">
             -->
-            <video class="video" autoplay="autoplay" loop style="overflow: hidden; margin: auto; object-fit:cover; max-width: 100%; height: auto;">
-            </video>
+            <!-- <img src="/images/oled.jpg" alt=""> -->
+            
+            <!-- <video src="/videos/lo.mp4"></video> -->
+
+            <!-- <img src="../public/images/oled.jpg" alt="" style="display: block;
+            height: 100px; width: auto; z-index: 1000000;"> -->
+
+            <video src="/videos/lo.mp4" class="video" autoplay="autoplay" loop style="overflow: hidden; margin: auto; object-fit:cover; max-width: 100%; height: auto;">
+            </video> 
             </div>
         </div>
     </div>
     </div>
 <section class="container">
       <h2 class="my-title-custom">Our Team</h2>
-      <div class="row mycustom-cards">
-            <div class="card custom-card" style="width: 16rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Sidharth P</h5>
-              </div>
-            </div>
+      
+  
+      <p style="text-align: center;">Sidharth Punathil // Rajat Mathew</p>
 
-            <div class="card custom-card" style="width: 16rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Deo Saju</h5>
-              </div>
-            </div>
+      <p style="text-align: center;">Amal Shibu // Deo Saju</p>
 
-            <div class="card custom-card" style="width: 16rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Amal Shibu</h5>
-              </div>
-            </div>
-
-            <div class="card custom-card" style="width: 16rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Sidharth S</h5>
-              </div>
-            </div>
-  </div>
+      <p style="text-align: center;">Sidharth Unnithan</p>
+        
+        
+    
 </section>
 
     
@@ -115,11 +109,14 @@
     </div>
     <div class="row justify-content-center">             
       <div class="col-auto">
-          <p class="ending-text">© 2021 Unicorn</p>
+          <p class="ending-text">© 2021 | Unicorn Developers</p>
       </div>
     </div>
   </div>
 </footer>
+
+
+
 
     <script>
         function createRoom() {
