@@ -11,7 +11,18 @@
 <li><a href="#Installation">Installation</a></li>
 <li><a href="#About-us">Ask the developers</a></li>
 
-### Installation
+# Why Unicornteach ?
+
+<li><a href="#The-need">The need ?</a></li>
+<li><a href="#The-solution">The-solution</a></li>
+
+## The Need ?
+
+The pandemic situation has forced evryone confined in their rooms. Classes have changed online. Online has become the 'new normal' of various industries but mainly in the educational sector. The online classes are taken on various online platforms such as Google Meet , Zoom or Microsoft Teams.
+
+### So What is the problem of these platforms ?
+
+# Installation
 
 The easiest way to get started with unicornteach
 
@@ -25,7 +36,7 @@ You can access the app by visiting
 ```bash
 localhost:3000
 ```
-### About us
+## About us
 
 <a href="https://docs.google.com/presentation/d/1X_5cFYmizqu-8cp4DHltDiI17BK6T65KlEPaCuGE_Vc/edit?usp=sharingg" title="Tutorial">Concept</a>
   
