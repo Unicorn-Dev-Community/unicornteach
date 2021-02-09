@@ -1,9 +1,6 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/sidharthpunathil/unicornteachV2/main/public/images/logo.svg">
-
-<br></br>
-
-![simple video demo](https://github.com/TheAmalShibu/unicornteachV2/blob/main/Assets/simplevideodemo.gif)
+  
+![Header](https://github.com/TheAmalShibu/unicornteachV2/blob/main/Assets/UnicornTeachHeader.png)
 
 </div>
 
@@ -18,9 +15,30 @@
 
 ## The Need ?
 
-The pandemic situation has forced evryone confined in their rooms. Classes have changed online. Online has become the 'new normal' of various industries but mainly in the educational sector. The online classes are taken on various online platforms such as Google Meet , Zoom or Microsoft Teams.
+The pandemic situation has forced evryone confined in their rooms. Classes have changed online. Online has become the 'new normal' of various industries but mainly in the educational sector. The classes have shifted to various online platforms such as Google Meet , Zoom or Microsoft Teams.
+
+<div align="center">
+  
+![The Need?](https://github.com/TheAmalShibu/unicornteachV2/blob/main/Assets/theprob.png)
+
+</div>
 
 ### So What is the problem of these platforms ?
+
+<div align="center">
+
+![High Data Consumption](https://github.com/TheAmalShibu/unicornteachV2/blob/main/Assets/highdata.png)
+
+</div>
+
+Theses platforms as a whole was not build and optimmized for online education
+
+## The Solution ?
+<div align="center">
+  
+![simple video demo](https://github.com/TheAmalShibu/unicornteachV2/blob/main/Assets/simplevideodemo.gif)
+
+</div>
 
 # Installation
 
