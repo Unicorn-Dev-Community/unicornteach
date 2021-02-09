@@ -32,13 +32,15 @@ localhost:3000
 <i>Follow US around the web:</i><br>
 
 <div align="center">
-  <a href="https://github.com/sidharthpunathil" >Sidharth Punathi</a>
+  <a href="https://github.com/sidharthpunathil" >Sidharth Punathil</a>
+  &nbsp;
+  <a href="https://github.com/rajatmathew" >Rajat Mathew</a>
   &nbsp;
   <a href="https://github.com/sid2020-devil" >Sidharth Unnithan</a>
   &nbsp;
-  <a href="https://github.com/theamalshibu" >Amal shibu</a>
+  <a href="https://github.com/theamalshibu" >Amal Shibu</a>
   &nbsp;
-  <a href="https://github.com/Deosaju" >Deo saju</a>
+  <a href="https://github.com/Deosaju" >Deo Saju</a>
 
 
 </div>
