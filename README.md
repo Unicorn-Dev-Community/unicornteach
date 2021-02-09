@@ -10,8 +10,8 @@
 
 # Why Unicornteach ?
 
-<li><a href="#The-need">The need ?</a></li>
-<li><a href="#The-solution">The-solution</a></li>
+<li><a href="#The-Need">The need ?</a></li>
+<li><a href="#The-Solution">The-solution</a></li>
 
 ## The Need ?
 
@@ -23,7 +23,7 @@ The pandemic situation has forced evryone confined in their rooms. Classes have 
 
 </div>
 
-### So What is the problem of these platforms ?
+### The Problem?
 
 <div align="center">
 
@@ -31,12 +31,23 @@ The pandemic situation has forced evryone confined in their rooms. Classes have 
 
 </div>
 
-Theses platforms as a whole was not build and optimmized for online education
+Theses platforms as a whole was not build and optimized for online education, it was build for meetings and confrences optimized for high quality 'streaming'. So the problem of high data consumption arrises with these apps.
+
+Taking a recent survey about online education about 49% of students in the student population dont't have access to a good quality network connection. This is a major problem in the education sector going completely 'online' 
 
 ## The Solution ?
 <div align="center">
   
 ![simple video demo](https://github.com/TheAmalShibu/unicornteachV2/blob/main/Assets/simplevideodemo.gif)
+
+</div>
+
+We at Unicorn Dev community we focused to find a solution to this problem and hence we've come up with ![logo](https://github.com/sidharthpunathil/unicornteachV2/blob/main/public/images/logo.svg)A platform that is focused in improving the quality of online education and reducing data consumption.
+
+<div align="center">
+  
+![solution](https://github.com/TheAmalShibu/unicornteachV2/blob/main/Assets/solution.png)
+![solutionmain](https://github.com/TheAmalShibu/unicornteachV2/blob/main/Assets/solution%20main.png)
 
 </div>
 
