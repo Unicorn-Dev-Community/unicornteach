@@ -91,6 +91,8 @@ localhost:3000
 <div align="center">
   <a href="https://github.com/sidharthpunathil" >Sidharth Punathi</a>
   &nbsp;
+  <a href="https://github.com/rajatmathew" >Rajat Mathew</a>
+  &nbsp;
   <a href="https://github.com/sid2020-devil" >Sidharth Unnithan</a>
   &nbsp;
   <a href="https://github.com/theamalshibu" >Amal shibu</a>
