@@ -47,7 +47,8 @@ Taking a recent survey about online education about 49% of students in the stude
 
 </div>
 
-We at Unicorn Dev community we focused to find a solution to this problem and hence we've come up with ![logo](https://github.com/sidharthpunathil/unicornteachV2/blob/main/public/images/logo.svg) A platform that is focused in improving the quality of online education and reducing data consumption.
+We at Unicorn Dev community we focused to find a solution to this problem and hence we've come up with ![logo](https://github.com/sidharthpunathil/unicornteachV2/blob/main/public/images/logo.svg)
+A platform that is focused in improving the quality of online education and reducing data consumption.
 
 <div align="center">
   
@@ -89,17 +90,20 @@ localhost:3000
 <i>Follow US around the web:</i><br>
 
 <div align="center">
+  
+![developers](https://github.com/Unicorn-Dev-Community/unicornteachV2/blob/main/Assets/UDEV.png)
+
+</div>
+
+
+<div align="center">
   <a href="https://github.com/sidharthpunathil" >Sidharth Punathil</a>
   &nbsp;
   <a href="https://github.com/rajatmathew" >Rajat Mathew</a>
   &nbsp;
-  <a href="https://github.com/rajatmathew" >Rajat Mathew</a>
+  <a href="https://github.com/theamalshibu" >Amal Shibu</a>
   &nbsp;
   <a href="https://github.com/sid2020-devil" >Sidharth Unnithan</a>
   &nbsp;
-  <a href="https://github.com/theamalshibu" >Amal Shibu</a>
-  &nbsp;
   <a href="https://github.com/Deosaju" >Deo Saju</a>
-
-
 </div>
