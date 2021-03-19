@@ -1,6 +1,6 @@
 <div align="center">
   
-![Header](https://github.com/TheAmalShibu/unicornteachV2/blob/main/Assets/UnicornTeachHeader.png)
+![Header](https://github.com/Unicorn-Dev-Community/unicornteach/blob/main/Assets/UnicornTeachHeader.png)
 
 </div>
 
@@ -24,7 +24,7 @@ The pandemic situation has forced evryone confined in their rooms. Classes have 
 
 <div align="center">
   
-![The Need?](https://github.com/TheAmalShibu/unicornteachV2/blob/main/Assets/theprob.png)
+![The Need?](https://github.com/Unicorn-Dev-Community/unicornteach/blob/main/Assets/theprob.png)
 
 </div>
 
@@ -32,7 +32,7 @@ The pandemic situation has forced evryone confined in their rooms. Classes have 
 
 <div align="center">
 
-![High Data Consumption](https://github.com/TheAmalShibu/unicornteachV2/blob/main/Assets/highdata.png)
+![High Data Consumption](https://github.com/Unicorn-Dev-Community/unicornteach/blob/main/Assets/highdata.png)
 
 </div>
 
@@ -43,7 +43,7 @@ Taking a recent survey about online education about 49% of students in the stude
 ## The Solution ?
 <div align="center">
   
-![simple video demo](https://github.com/TheAmalShibu/unicornteachV2/blob/main/Assets/simplevideodemo.gif)
+![simple video demo](https://github.com/Unicorn-Dev-Community/unicornteach/blob/main/Assets/simplevideodemo.gif)
 
 </div>
 
@@ -52,8 +52,8 @@ A platform that is focused in improving the quality of online education and redu
 
 <div align="center">
   
-![solution](https://github.com/TheAmalShibu/unicornteachV2/blob/main/Assets/solution.png)
-![solutionmain](https://github.com/TheAmalShibu/unicornteachV2/blob/main/Assets/solution%20main.png)
+![solution](https://github.com/Unicorn-Dev-Community/unicornteach/blob/main/Assets/solution.png)
+![solutionmain](https://github.com/Unicorn-Dev-Community/unicornteach/blob/main/Assets/solution%20main.png)
 
 </div>
 
@@ -91,7 +91,7 @@ localhost:3000
 
 <div align="center">
   
-![developers](https://github.com/Unicorn-Dev-Community/unicornteachV2/blob/main/Assets/UDEV.png)
+![developers](https://github.com/Unicorn-Dev-Community/unicornteach/blob/main/Assets/UDEV.png)
 
 </div>
 
